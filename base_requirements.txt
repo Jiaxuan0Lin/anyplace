@@ -1,5 +1,8 @@
-cython
+Cython
 wandb
-numpy<=1.22.4
-pybullet<=3.2.5
-git+https://github.com/Improbable-AI/airobot.git@panda-2f140
+# numpy 必须大于 1.23.5 以支持 Python 3.11，且小于 2.0 以兼容旧代码
+numpy>=1.23.5,<2.0
+# 放宽 pybullet 限制以获取 Python 3.11 的预编译包
+pybullet
+# airobot 已在之前手动安装，这里可以注释掉，或者保留并用忽略参数安装
+# git+https://github.com/Improbable-AI/airobot.git@panda-2f140

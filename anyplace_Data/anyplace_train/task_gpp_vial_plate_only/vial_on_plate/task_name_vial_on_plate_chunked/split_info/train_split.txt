@@ -1,0 +1,15 @@
+demo_aug_0.npz
+demo_aug_1.npz
+demo_aug_10.npz
+demo_aug_11.npz
+demo_aug_12.npz
+demo_aug_19.npz
+demo_aug_2.npz
+demo_aug_33.npz
+demo_aug_4.npz
+demo_aug_40.npz
+demo_aug_41.npz
+demo_aug_7.npz
+demo_aug_8.npz
+demo_aug_9.npz
+demo_aug_25.npz

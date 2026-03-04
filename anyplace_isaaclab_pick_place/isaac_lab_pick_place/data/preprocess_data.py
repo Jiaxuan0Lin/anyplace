@@ -4,7 +4,7 @@ import argparse
 import trimesh
 import numpy as np
 
-from omni.isaac.lab.app import AppLauncher
+from isaaclab.app import AppLauncher
 
 app_launcher = AppLauncher({ "headless": True })
 simulation_app = app_launcher.app

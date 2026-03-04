@@ -53,7 +53,7 @@ def transform_pcd_torch(pcd, transform):
 
 
 def dict_to_gpu(ob: Union[dict, torch.Tensor], to_float: bool=True) -> Union[dict, torch.Tensor]:
-    if isinstance(ob, collections.Mapping):
+    if isinstance(ob, collections.abc.Mapping):
         return {k: dict_to_gpu(v) for k, v in ob.items()}
     else:
         if to_float:

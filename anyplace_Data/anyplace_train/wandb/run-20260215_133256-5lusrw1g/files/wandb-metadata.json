@@ -1,0 +1,43 @@
+{
+  "os":  "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-15T05:32:56.222365Z",
+  "args":  [
+    "-c",
+    "/home/ustc/anyplace/anyplace/config/train_cfgs/anyplace_cfgs/vial_inserting/anyplace_diffusion_molmocrop.yaml"
+  ],
+  "program":  "/home/ustc/anyplace/anyplace/training/train_full.py",
+  "codePath":  "anyplace/training/train_full.py",
+  "git":  {
+    "remote":  "https://github.com/ac-rad/anyplace",
+    "commit":  "3049f78ad226ba0d9e54c63e2ca7ad7bbcfaa45e"
+  },
+  "email":  "112233ljx@gmail.com",
+  "root":  "/home/ustc/anyplace/anyplace_Data/anyplace_train",
+  "host":  "ustclab",
+  "executable":  "/home/ustc/anaconda3/envs/anyplace/bin/python",
+  "cpu_count":  12,
+  "cpu_count_logical":  20,
+  "gpu":  "NVIDIA GeForce RTX 5060 Ti",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "1903740588032",
+      "used":  "832685416448"
+    }
+  },
+  "memory":  {
+    "total":  "33427984384"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce RTX 5060 Ti",
+      "memoryTotal":  "17103323136",
+      "cudaCores":  4608,
+      "architecture":  "Blackwell",
+      "uuid":  "GPU-ebb60c6b-d2e5-1d04-7b3d-668b296c026b"
+    }
+  ],
+  "cudaVersion":  "13.1",
+  "writerId":  "hwf5nd13dbezzch5vtl12jby47lk00zn"
+}

@@ -2,7 +2,7 @@ import open3d as o3d
 import numpy as np
 
 # Get data path
-data_path = "PATH_TO_DATA_SUBFOLDER"
+data_path = "/home/ustc/anyplace/anyplace_Data/anyplace_eval/task_gpp_vialinsertion/vialinsertion/vialplateobj_0_on_vialplate_0"
 base_obj_path= f'{data_path}/base_obj_pointcloud.ply'
 target_obj_path = f'{data_path}/target_obj_pointcloud.ply' 
 

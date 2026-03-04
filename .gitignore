@@ -1,0 +1,8 @@
+# 忽略权重文件夹
+checkpoints/
+model_weights/
+
+# 忽略 Python 缓存和系统文件
+__pycache__/
+.DS_Store
+*.log

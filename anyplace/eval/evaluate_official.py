@@ -97,7 +97,7 @@ def main(args: config_util.AttrDict) -> None:
         # assumes model path exists
         pose_refine_model_path = args.experiment.eval.ckpt_path
         print(f'!!!!!!!!!!!!! Model path: {pose_refine_model_path}')
-        pose_refine_ckpt = torch.load(pose_refine_model_path, map_location=torch.device('cpu'))
+        pose_refine_ckpt = torch.load(pose_refine_model_path, map_location=torch.device('cpu'),weights_only=False)
 
         # update config with config used during training
         config_util.update_recursive(args.model.refine_pose, config_util.recursive_attr_dict(pose_refine_ckpt['args']['model']['refine_pose']))

@@ -1,0 +1,21 @@
+{
+  "os":  "Linux-6.17.0-14-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.14",
+  "startedAt":  "2026-02-15T05:19:42.366382Z",
+  "args":  [
+    "-c",
+    "/home/ustc/anyplace/anyplace/config/train_cfgs/anyplace_cfgs/vial_inserting/anyplace_diffusion_molmocrop.yaml"
+  ],
+  "program":  "/home/ustc/anyplace/anyplace/training/train_full.py",
+  "codePath":  "anyplace/training/train_full.py",
+  "codePathLocal":  "anyplace/training/train_full.py",
+  "git":  {
+    "remote":  "https://github.com/ac-rad/anyplace",
+    "commit":  "3049f78ad226ba0d9e54c63e2ca7ad7bbcfaa45e"
+  },
+  "email":  "112233ljx@gmail.com",
+  "root":  "/home/ustc/anyplace",
+  "host":  "ustclab",
+  "executable":  "/home/ustc/anaconda3/envs/anyplace/bin/python",
+  "writerId":  "hu3a16s30w7nrhttmx2ayfkdpvjfwymb"
+}
